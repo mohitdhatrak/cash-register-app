@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles.css" />
+        <title>Cash Register</title>
+    </head>
+    <body>
+        <header class="header-container">
+            <h1>Cash Register</h1>
+        </header>
+
+        <h2 class="description-line">
+            Enter the bill amount and cash given by customer
+        </h2>
+
+        <h3 class="input-button-headings">Bill amount:</h3>
+        <input id="bill-amount" type="text" />
+
+        <h3 class="input-button-headings">Cash given:</h3>
+        <input id="cash-given" type="text" />
+
+        <button id="button">Check</button>
+
+        <h3 class="input-button-headings">Return change:</h3>
+
+        <div id="error-message"></div>
+
+        <table class="table-container">
+            <tr>
+                <th>No. of notes</th>
+                <td class="box"></td>
+                <td class="box"></td>
+                <td class="box"></td>
+                <td class="box"></td>
+                <td class="box"></td>
+                <td class="box"></td>
+                <td class="box"></td>
+            </tr>
+            <tr>
+                <th>Note value</th>
+                <th>2000</th>
+                <th>500</th>
+                <th>100</th>
+                <th>20</th>
+                <th>10</th>
+                <th>5</th>
+                <th>1</th>
+            </tr>
+        </table>
+
+        <footer class="footer-container">
+            <h2>Connect with me</h2>
+            <div class="social-container">
+                <a href="https://twitter.com/mohitdhatrak"
+                    ><img src="/twitter.svg" alt="" class="small-image-size"
+                /></a>
+                <a href="https://www.linkedin.com/in/mohitdhatrak/"
+                    ><img src="/linkedin.svg" alt="" class="small-image-size"
+                /></a>
+                <a href="https://github.com/mohitdhatrak"
+                    ><img src="/github.svg" alt="" class="small-image-size"
+                /></a>
+            </div>
+        </footer>
+
+        <script src="/app.js" type="text/javascript"></script>
+    </body>
+</html>

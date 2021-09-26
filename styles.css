@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap");
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2563eb;
+}
+
+.header-container {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.description-line {
+    display: block;
+    font-weight: 100;
+    max-width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.input-button-headings {
+    text-align: center;
+    margin: 0;
+}
+
+#bill-amount {
+    display: block;
+    height: 2rem;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#cash-given {
+    display: block;
+    height: 2rem;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#button {
+    display: block;
+    margin: 1rem auto;
+    width: 7rem;
+    height: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.table-container {
+    margin: 2rem auto;
+    border: 1px solid black;
+    max-width: 80%;
+}
+
+#error-message {
+    display: block;
+    width: 30rem;
+    max-width: 80%;
+    margin: 1rem auto;
+    color: red;
+}
+
+td,
+th {
+    padding: 0.2rem;
+    border: 1px solid black;
+    width: 4rem;
+    text-align: center;
+    height: 4rem;
+}
+.footer-container {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.small-image-size {
+    width: 2rem;
+    margin: 1rem;
+}
