@@ -35,12 +35,9 @@ function clickListner() {
     extraCash = cashGiven.value - billAmount.value;
 
     if (cashGiven.value == "" || billAmount.value == "") {
-        errorMessage.innerText = "Please enter both the values.";
-    } else if (
-        cashGiven.value < 0 ||
-        billAmount.value < 0 ||
-        Number.isNaN(extraCash)
-    ) {
+        errorMessage.innerText =
+            "Please enter positive numeric values in both the fields";
+    } else if (cashGiven.value < 0 || billAmount.value < 0) {
         errorMessage.innerText = "Please enter positive numerical values only.";
     } else if (extraCash < 0) {
         errorMessage.innerText =
