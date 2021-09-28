@@ -69,12 +69,20 @@ body {
     max-width: 80%;
 }
 
+#total-amount {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
 #error-message {
     display: block;
     width: 30rem;
     max-width: 80%;
     margin: 1rem auto;
     color: red;
+    text-align: center;
 }
 
 td,

@@ -2,6 +2,7 @@ var billAmount = document.querySelector("#bill-amount");
 var cashGiven = document.querySelector("#cash-given");
 var button = document.querySelector("#button");
 var errorMessage = document.querySelector("#error-message");
+var totalAmount = document.querySelector("#total-amount");
 var notesDisplay = document.querySelectorAll(".box");
 
 var extraCash;
@@ -29,6 +30,7 @@ function clickListner() {
     }
     displayNotes();
     errorMessage.innerText = "";
+    totalAmount.innerText = "";
 
     extraCash = cashGiven.value - billAmount.value;
 
@@ -42,6 +44,7 @@ function clickListner() {
         errorMessage.innerText =
             "Cash given is less than bill amount, pay more cash or do the dishes.";
     } else {
+        totalAmount.innerText = extraCash;
         changeProcessor(extraCash);
     }
 }
