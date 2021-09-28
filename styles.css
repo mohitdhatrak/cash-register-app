@@ -40,6 +40,8 @@ body {
     margin: 0.5rem auto;
     padding: 1rem;
     border: 1px solid black;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
 }
 
 #cash-given {
@@ -48,6 +50,8 @@ body {
     margin: 0.5rem auto;
     padding: 1rem;
     border: 1px solid black;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
 }
 
 #button {
@@ -65,7 +69,7 @@ body {
 
 .table-container {
     margin: 2rem auto;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     max-width: 80%;
 }
 
@@ -88,7 +92,7 @@ body {
 td,
 th {
     padding: 0.2rem;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     width: 4rem;
     text-align: center;
     height: 4rem;
