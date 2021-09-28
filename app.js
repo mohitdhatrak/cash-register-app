@@ -34,7 +34,9 @@ function clickListner() {
 
     extraCash = cashGiven.value - billAmount.value;
 
-    if (
+    if (cashGiven.value == "" || billAmount.value == "") {
+        errorMessage.innerText = "Please enter both the values.";
+    } else if (
         cashGiven.value < 0 ||
         billAmount.value < 0 ||
         Number.isNaN(extraCash)
